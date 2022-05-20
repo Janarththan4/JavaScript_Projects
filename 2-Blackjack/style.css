@@ -1,0 +1,52 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    background: #EDE6DB;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #125C13;
+    max-width: 400px;
+    margin: 2em auto;
+    border-radius: 5px;
+    padding: .5em 0 3em 0;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 3rem;
+    
+}
+ 
+p {
+    font-size: 1.5rem;
+    color: #F7F7F7;
+}
+
+#message-el {
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    border: 0;
+    padding: .5em;
+    width: 200px;
+    margin: .25em;
+    background: goldenrod;
+    font-size: 1.25rem;
+    color: #125C13;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background: #EFD345;
+}
