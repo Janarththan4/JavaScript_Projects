@@ -12,6 +12,7 @@ input {
     box-sizing: border-box;
     border: 2px solid #2155CD;
     margin-bottom: 4px;
+    font-size: 1rem;
 }
 
 input:focus {
@@ -25,6 +26,7 @@ button {
     padding: 10px 20px;
     border: 2px solid #2155CD;
     font-weight: bold;
+    font-size: 1rem;
 }
 button:hover{
     cursor: pointer;
@@ -53,4 +55,5 @@ li {
 
 a {
     color: #2155CD;
+    font-size: 1rem;
 }
