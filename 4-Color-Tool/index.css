@@ -1,4 +1,39 @@
-html, body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
     padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #3e4560;
+    color: #fff;
+}
+.container {
+    padding: 0 1em;
+}
+.title {
+    text-align: center;
+    margin: 1em;
+    color: #d6d5ac;
+}
+label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: .5em;
+}
+input {
+    margin-bottom: 1em;
+}
+input[type="text"] {
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.box {
+    height: 100px;
+    width: 100%;
+    background-color: #d6d5ac;
+    margin-bottom: 1em;
 }
